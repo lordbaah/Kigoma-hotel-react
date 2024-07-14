@@ -1,0 +1,37 @@
+.newsletter{
+    /* background: url('../../assets/images/homepage//contact-bg.png');
+    background-repeat: no-repeat;
+    padding: 5rem 0; */
+}
+
+.newsletter-container{
+    background: url('../../assets/images/homepage//contact-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.input{
+    max-width: 500px;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    padding: 1em 1.5em;
+}

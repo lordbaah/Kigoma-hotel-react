@@ -1,0 +1,136 @@
+:root{
+    --text-color: #151515;
+    --btn-bg: #FE7401;
+    --clr-white: #F0F0F0;
+    --clr-white-fade: rgb(240,240,240,0.5);
+
+
+    --hero-head-text: 5rem;
+    --section-head-text: 2rem;
+
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+
+@font-face {
+    font-family: 'dubai-light';
+    src: url('../src/assets/fonts/dubai/light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dubai-regular';
+    src: url('../src/assets/fonts/dubai/regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'dubai-bold';
+    src: url('../src/assets/fonts/dubai/bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'tfarrow-bold';
+    src: url('../src/assets/fonts/tfarrow/bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'tfarrow-black';
+    src: url('../src/assets/fonts/tfarrow/black.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+    font-family: 'dubai-light';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'dubai-light';
+    background: #fff;
+    color: var(--text-color);
+}
+
+
+img{
+    width: 100%;
+    object-fit: cover;
+    user-select: none;
+    display: block;
+}
+
+a,
+button{
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paragraph{
+    font-weight: 300;
+}
+
+.container{
+    /* max-width: 1400px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container-no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section{
+    margin-top: 5rem;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    font-family: 'dubai-bold';
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary{
+    background: var(--btn-bg);
+    color: var(--clr-white);
+}
+
+.paragraph{
+    font-family: 'dubai-light';
+}
+
+.section-head{
+    font-family: 'tfarrow-bold';
+    font-size: var(--section-head-text);
+}
+
+.room-price{
+    font-family: 'dubai-bold';
+    font-size: 1.2rem;
+}
+

@@ -1,0 +1,34 @@
+.facilities-page{
+    margin-top: 10rem;
+}
+
+.facilities-page-container{
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 4rem;
+    row-gap: 6rem;
+}
+
+.facility-content{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.facility-link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.facility-link img{
+    width: 30px;
+}
+
+@media (max-width: 768px){
+    .facilities-page-container{
+        grid-template-columns: 1fr;
+    }
+}

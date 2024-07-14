@@ -1,0 +1,42 @@
+.manager-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.manager-message-wrap{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3rem;
+}
+
+.manager-img-wrap{
+    /* flex-basis: 25%; */
+    height: max-content;
+}
+
+.manager-img{
+    width: 200px;
+}
+
+.manager-message{
+    /* flex-basis: 70%; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.signature{
+    width: 70px;
+}
+
+@media (max-width: 768px){
+    .manager-message-wrap{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 2rem;
+    }
+}
